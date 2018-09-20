@@ -1,0 +1,33 @@
+<ion-header>
+  <ion-navbar color="primary">
+    <button ion-button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+      <ion-title>Kehadiran</ion-title>
+    </button>
+    </ion-navbar>
+    </ion-header>
+    
+    <ion-content padding>
+    
+        <ion-content parallax>
+            <div class="bg">
+          </div>
+      
+    
+        <ion-list>
+            <ion-item>
+              <ion-label>Subjek</ion-label>
+              <ion-select [(ngModel)]="Subjek">
+                <ion-option value="1">Computer Troubleshooting</ion-option>
+                <ion-option value="2">Basic Electronic</ion-option>
+                <ion-option value="3">FYP II</ion-option>
+                <ion-option value="4">Database</ion-option>
+              </ion-select>
+            </ion-item>
+          </ion-list>
+  
+
+    
+        <button ion-button color="secondary" round>Cetak</button>
+       
+    </ion-content>
